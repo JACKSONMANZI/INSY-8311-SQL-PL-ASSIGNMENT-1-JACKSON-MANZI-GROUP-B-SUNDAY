@@ -1,7 +1,7 @@
-# INSY8311SQL/PL-ASSIGNMENT-1-JACKSON-MANZI-GROUP-B-SUNDAY
-# SQL JOINs & Window Functions Assignment
+* INSY8311SQL/PL-ASSIGNMENT-1-JACKSON-MANZI-GROUP-B-SUNDAY
+* SQL JOINs & Window Functions Assignment
 
-## Business Problem
+**Business Problem
 About Business Context
 
 Simba Supermarket is an online and physical retail company operating even in the e-commerce industry.
@@ -15,62 +15,81 @@ Expected Outcome
 
 My goal for this showings is to identify all booked products to avoid more booking on same product which destroy reputatios. determine the most frequently purchased products for better inventory management and recognize customers for sales boosting.
 
-## Success Criteria
-1.
-2.
-3.
-4.
-5.
+** Success Criteria
+1. Success Criterion: (Ranking)
 
-## Database Schema
+My aim: Identify the most orded products in all orders from customer using ranking functions for better stock planning and management.
+(window function: RANK())
+
+2.Success Criterion: (Running Total)
+
+My aim: Calculate  totals of sales over time to understand sales rising which is happening.
+(window function: SUM() OVER())
+
+3.Success Criterion: (Period Comparison)
+
+My aim: Compare present product sales with previous time to check increases or decreases in demanding.
+(window function: LAG() or LEAD())
+
+4.Success Criterion: (Customer dividing)
+
+My aim: Divide customers into four groups based on their order frequency to identify mostly ordering customers.
+(window function: NTILE(4))
+
+5.Success Criterion: (Moving Average)
+
+My aim: Analyse average sales occuring over the  time using  averages to support predictions and availability of products in stocks.
+(window function: AVG() OVER())
+
+** Database Schema
 (Describe your tables briefly)
 
-### ER Diagram
+*** ER Diagram
 (Insert ER diagram image here)
 
-## Part A: SQL JOINs
+** Part A: SQL JOINs
 
-### INNER JOIN
+** INNER JOIN
 - Purpose:
 - Business Interpretation:
 
-### LEFT JOIN
+** LEFT JOIN
 - Purpose:
 - Business Interpretation:
 
-### RIGHT / FULL JOIN
+*** RIGHT / FULL JOIN
 - Purpose:
 - Business Interpretation:
 
-### FULL OUTER JOIN
+*** FULL OUTER JOIN
 - Purpose:
 - Business Interpretation:
 
-### SELF JOIN
+*** SELF JOIN
 - Purpose:
 - Business Interpretation:
 
-## Part B: Window Functions
+** Part B: Window Functions
 
-### Ranking Functions
+*** Ranking Functions
 - Interpretation:
 
-### Aggregate Window Functions
+*** Aggregate Window Functions
 - Interpretation:
 
-### Navigation Functions
+*** Navigation Functions
 - Interpretation:
 
-### Distribution Functions
+*** Distribution Functions
 - Interpretation:
 
-## Results Analysis
+** Results Analysis
 - Descriptive:
 - Diagnostic:
 - Prescriptive:
 
-## References
+** References
 (List your references)
 
-## Integrity Statement
+** Integrity Statement
 All sources were properly cited. Implementations and analysis represent original work.
