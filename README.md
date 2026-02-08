@@ -48,7 +48,7 @@ here we need three main relations(tables): Customer relation, Product relation a
 The Customer relation stores customer informations, the Product relation stores product and stock informations, and the Order relation records all product being booked  by customers.
 The tables are connected using primary and foreign keys for JOIN operations and window function to be applicable.
 *** ER Diagram
-(Insert ER diagram image here)
+[ER Diagram](er_diagram.png)
 
 ** Part A: SQL JOINs
 
